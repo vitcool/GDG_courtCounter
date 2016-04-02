@@ -145,22 +145,23 @@
 
     </LinearLayout>
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_weight="1">
 
         <Button
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
             android:onClick="resetButton"
             android:text="reset score"
             android:layout_marginBottom="32dp"
+            android:layout_alignParentBottom="true"
             />
 
-    </LinearLayout>
+    </RelativeLayout>
 
 
 </LinearLayout>
